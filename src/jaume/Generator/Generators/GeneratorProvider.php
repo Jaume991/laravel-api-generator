@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitul\Generator\Generators;
+namespace Jaume991\Generator\Generators;
 
 interface GeneratorProvider
 {

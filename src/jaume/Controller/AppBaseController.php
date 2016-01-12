@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitul\Controller;
+namespace Jaume991\Controller;
 
 use App\Http\Controllers\Controller as Controller;
 use Illuminate\Http\Request;

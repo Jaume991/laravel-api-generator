@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitul\Generator\Utils;
+namespace Jaume991\Generator\Utils;
 
 use DB;
 

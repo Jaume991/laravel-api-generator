@@ -1,14 +1,14 @@
 <?php
 
-namespace Mitul\Generator\Commands;
+namespace Jaume991\Generator\Commands;
 
 use Config;
 use File;
 use Illuminate\Console\Command;
-use Mitul\Generator\CommandData;
-use Mitul\Generator\File\FileHelper;
-use Mitul\Generator\TemplatesHelper;
-use Mitul\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\File\FileHelper;
+use Jaume991\Generator\TemplatesHelper;
+use Jaume991\Generator\Utils\GeneratorUtils;
 use Symfony\Component\Console\Input\InputOption;
 
 class PublisherCommand extends Command

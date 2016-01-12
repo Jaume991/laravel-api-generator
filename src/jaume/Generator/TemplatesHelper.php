@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitul\Generator;
+namespace Jaume991\Generator;
 
 class TemplatesHelper
 {

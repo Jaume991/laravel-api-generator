@@ -1,11 +1,11 @@
 <?php
 
-namespace Mitul\Generator\Generators\API;
+namespace Jaume991\Generator\Generators\API;
 
 use Config;
-use Mitul\Generator\CommandData;
-use Mitul\Generator\Generators\GeneratorProvider;
-use Mitul\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\Generators\GeneratorProvider;
+use Jaume991\Generator\Utils\GeneratorUtils;
 
 class APIControllerGenerator implements GeneratorProvider
 {

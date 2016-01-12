@@ -1,11 +1,11 @@
 <?php
 
-namespace Mitul\Generator\Generators\Scaffold;
+namespace Jaume991\Generator\Generators\Scaffold;
 
 use Config;
-use Mitul\Generator\CommandData;
-use Mitul\Generator\Generators\GeneratorProvider;
-use Mitul\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\Generators\GeneratorProvider;
+use Jaume991\Generator\Utils\GeneratorUtils;
 
 class ViewControllerGenerator implements GeneratorProvider
 {

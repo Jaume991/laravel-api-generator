@@ -79,7 +79,7 @@ Documentation
 
 		Collective\Html\HtmlServiceProvider::class,
 		Laracasts\Flash\FlashServiceProvider::class,
-		Mitul\Generator\GeneratorServiceProvider::class,
+		Jaume991\Generator\GeneratorServiceProvider::class,
         
    Also for convenience, add these facades in alias array in ```config/app.php```.
 
@@ -91,7 +91,7 @@ Documentation
 
 Publish Configuration file ```generator.php```.
 
-        php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider"
+        php artisan vendor:publish --provider="Jaume991\Generator\GeneratorServiceProvider"
         
 Config file (```config/generator.php```) contains path for all generated files
 

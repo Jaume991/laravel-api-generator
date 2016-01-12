@@ -16,12 +16,12 @@ $api->group([
 
 	$api->get('errors/{id}', function ($id)
 	{
-		return \Mitul\Generator\Errors::getErrors([$id]);
+		return \Jaume991\Generator\Errors::getErrors([$id]);
 	});
 
 	$api->get('errors', function ()
 	{
-		return \Mitul\Generator\Errors::getErrors([], [], true);
+		return \Jaume991\Generator\Errors::getErrors([], [], true);
 	});
 
 	$api->get('/', function ()

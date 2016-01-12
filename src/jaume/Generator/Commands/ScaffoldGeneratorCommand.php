@@ -1,15 +1,15 @@
 <?php
 
-namespace Mitul\Generator\Commands;
+namespace Jaume991\Generator\Commands;
 
-use Mitul\Generator\CommandData;
-use Mitul\Generator\Generators\Common\MigrationGenerator;
-use Mitul\Generator\Generators\Common\ModelGenerator;
-use Mitul\Generator\Generators\Common\RepositoryGenerator;
-use Mitul\Generator\Generators\Common\RequestGenerator;
-use Mitul\Generator\Generators\Common\RoutesGenerator;
-use Mitul\Generator\Generators\Scaffold\ViewControllerGenerator;
-use Mitul\Generator\Generators\Scaffold\ViewGenerator;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\Generators\Common\MigrationGenerator;
+use Jaume991\Generator\Generators\Common\ModelGenerator;
+use Jaume991\Generator\Generators\Common\RepositoryGenerator;
+use Jaume991\Generator\Generators\Common\RequestGenerator;
+use Jaume991\Generator\Generators\Common\RoutesGenerator;
+use Jaume991\Generator\Generators\Scaffold\ViewControllerGenerator;
+use Jaume991\Generator\Generators\Scaffold\ViewGenerator;
 
 class ScaffoldGeneratorCommand extends BaseCommand
 {

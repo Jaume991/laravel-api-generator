@@ -1,12 +1,12 @@
 <?php
 
-namespace Mitul\Generator;
+namespace Jaume991\Generator;
 
 use Illuminate\Support\ServiceProvider;
-use Mitul\Generator\Commands\APIGeneratorCommand;
-use Mitul\Generator\Commands\PublisherCommand;
-use Mitul\Generator\Commands\ScaffoldAPIGeneratorCommand;
-use Mitul\Generator\Commands\ScaffoldGeneratorCommand;
+use Jaume991\Generator\Commands\APIGeneratorCommand;
+use Jaume991\Generator\Commands\PublisherCommand;
+use Jaume991\Generator\Commands\ScaffoldAPIGeneratorCommand;
+use Jaume991\Generator\Commands\ScaffoldGeneratorCommand;
 
 class GeneratorServiceProvider extends ServiceProvider
 {

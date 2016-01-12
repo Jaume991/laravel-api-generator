@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Jaume\\": "src/Jaume/"
+            "Jaume991\\": "src/Jaume991/"
         }
     },
     "suggest": {

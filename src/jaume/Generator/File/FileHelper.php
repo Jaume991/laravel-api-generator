@@ -1,6 +1,6 @@
 <?php
 
-namespace Mitul\Generator\File;
+namespace Jaume991\Generator\File;
 
 class FileHelper
 {

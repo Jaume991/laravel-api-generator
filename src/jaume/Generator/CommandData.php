@@ -1,12 +1,12 @@
 <?php
 
-namespace Mitul\Generator;
+namespace Jaume991\Generator;
 
 use Config;
 use Illuminate\Support\Str;
-use Mitul\Generator\Commands\APIGeneratorCommand;
-use Mitul\Generator\File\FileHelper;
-use Mitul\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\Commands\APIGeneratorCommand;
+use Jaume991\Generator\File\FileHelper;
+use Jaume991\Generator\Utils\GeneratorUtils;
 
 class CommandData
 {
@@ -129,7 +129,7 @@ class CommandData
     {
         return [
 
-            '$BASE_CONTROLLER$'          => Config::get('generator.base_controller', 'Mitul\Controller\AppBaseController'),
+            '$BASE_CONTROLLER$'          => Config::get('generator.base_controller', 'Jaume991\Controller\AppBaseController'),
 
             '$NAMESPACE_CONTROLLER$'     => Config::get('generator.namespace_controller', 'App\Http\Controllers'),
 

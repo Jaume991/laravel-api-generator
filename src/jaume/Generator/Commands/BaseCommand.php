@@ -1,13 +1,13 @@
 <?php
 
-namespace Mitul\Generator\Commands;
+namespace Jaume991\Generator\Commands;
 
 use Exception;
 use Illuminate\Console\Command;
-use Mitul\Generator\CommandData;
-use Mitul\Generator\File\FileHelper;
-use Mitul\Generator\Utils\GeneratorUtils;
-use Mitul\Generator\Utils\TableFieldsGenerator;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\File\FileHelper;
+use Jaume991\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\Utils\TableFieldsGenerator;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputOption;
 

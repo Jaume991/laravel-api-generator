@@ -14,8 +14,8 @@ So we removed all extra Exception files. so you need to remove those things from
 
 3. Remove use statements
 
-        use Mitul\Generator\Exceptions\AppValidationException;
-        use Mitul\Generator\Exceptions\RecordNotFoundException;
+        use Jaume991\Generator\Exceptions\AppValidationException;
+        use Jaume991\Generator\Exceptions\RecordNotFoundException;
 
 4. Remove throw statement from PHPDoc Blocks of functions
 
@@ -41,7 +41,7 @@ Upgrade Guide from 1.0 to 1.1 or 1.2
 
 5. Run publish command again.
 
-        php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider"
+        php artisan vendor:publish --provider="Jaume991\Generator\GeneratorServiceProvider"
 
 6. Replace your custom paths again in ```config/generator.php```.
 

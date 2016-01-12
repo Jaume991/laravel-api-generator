@@ -1,13 +1,13 @@
 <?php
 
-namespace Mitul\Generator\Commands;
+namespace Jaume991\Generator\Commands;
 
-use Mitul\Generator\CommandData;
-use Mitul\Generator\Generators\API\APIControllerGenerator;
-use Mitul\Generator\Generators\Common\MigrationGenerator;
-use Mitul\Generator\Generators\Common\ModelGenerator;
-use Mitul\Generator\Generators\Common\RepositoryGenerator;
-use Mitul\Generator\Generators\Common\RoutesGenerator;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\Generators\API\APIControllerGenerator;
+use Jaume991\Generator\Generators\Common\MigrationGenerator;
+use Jaume991\Generator\Generators\Common\ModelGenerator;
+use Jaume991\Generator\Generators\Common\RepositoryGenerator;
+use Jaume991\Generator\Generators\Common\RoutesGenerator;
 
 class APIGeneratorCommand extends BaseCommand
 {

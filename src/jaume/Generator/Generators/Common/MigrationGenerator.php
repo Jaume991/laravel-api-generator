@@ -1,12 +1,12 @@
 <?php
 
-namespace Mitul\Generator\Generators\Common;
+namespace Jaume991\Generator\Generators\Common;
 
 use Config;
-use Mitul\Generator\CommandData;
-use Mitul\Generator\Generators\GeneratorProvider;
-use Mitul\Generator\SchemaGenerator;
-use Mitul\Generator\Utils\GeneratorUtils;
+use Jaume991\Generator\CommandData;
+use Jaume991\Generator\Generators\GeneratorProvider;
+use Jaume991\Generator\SchemaGenerator;
+use Jaume991\Generator\Utils\GeneratorUtils;
 
 class MigrationGenerator implements GeneratorProvider
 {
