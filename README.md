@@ -9,7 +9,7 @@ Laravel API/Scaffold/CRUD Generator
  5.0      | [1.3](https://github.com/mitulgolakiya/laravel-api-generator/tree/1.3)
  5.1.*    | [1.4](https://github.com/mitulgolakiya/laravel-api-generator/tree/1.4)
  5.2.*    | [master](https://github.com/mitulgolakiya/laravel-api-generator)
- 
+
 I enjoy creating API's and I have worked on many projects that required them. But the problem I always faced was setting up all the boilerplate code. For example each end point needs a migration, model, controller, repository, and on and on. I wanted a way to streamline this process and that is how this package was born.
 
 This API generator allows you to use artisan commands to automatically generate all these files saving you time. Not only does it auto generate the files but it will set the namespaces. 
@@ -62,9 +62,15 @@ Documentation
 
 1. Add this package to your composer.json:
   
+        "repositories": [
+            {
+                "type": "git",
+                "url": "https://github.com/mitulgolakiya/laracast-flash"
+            }
+        ],
         "require": {
-            "laracasts/flash": "~1.3",
-            "laravelcollective/html": "5.2.*",
+            "laracasts/flash": "dev-master",
+            "laravelcollective/html": "5.1.*@dev",
             "bosnadev/repositories": "dev-master",
             "mitulgolakiya/laravel-api-generator": "dev-master"
         }
